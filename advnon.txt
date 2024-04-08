@@ -1,0 +1,44 @@
+Frame 46: 63 bytes on wire (504 bits), 63 bytes captured (504 bits) on interface COM3-4.2, id 0
+nRF Sniffer for Bluetooth LE
+    Board: 3
+    Header Version: 3, Packet counter: 51
+        Length of payload: 56
+        Protocol version: 3
+        Packet counter: 51
+        Packet ID: 2
+    Length of packet: 10
+    Flags: 0x01
+        .... ...1 = CRC: Ok
+        .... ..0. = Reserved: 0
+        .... .0.. = Reserved: 0
+        .... 0... = Address Resolved: No
+        .000 .... = PHY: LE 1M (0)
+        0... .... = Reserved: 0
+    Channel Index: 37
+    RSSI: -41 dBm
+    Event counter: 0
+    Timestamp: 4095047µs
+    [Packet time (start to end): 376µs]
+    [Delta time (end to start): 15000µs]
+    [Delta time (start to start): 15176µs]
+Bluetooth Low Energy Link Layer
+    Access Address: 0x8e89bed6
+    Packet Header: 0x2562 (PDU Type: ADV_NONCONN_IND, TxAdd: Random)
+        .... 0010 = PDU Type: 0x2 ADV_NONCONN_IND
+        ...0 .... = Reserved: 0
+        ..1. .... = Reserved: 1
+        .1.. .... = Tx Address: Random
+        0... .... = Reserved: 0
+        Length: 37
+    Advertising Address: 1e:92:70:1d:6c:da (1e:92:70:1d:6c:da)
+    Advertising Data
+        Manufacturer Specific
+            Length: 30
+            Type: Manufacturer Specific (0xff)
+            Company ID: Microsoft (0x0006)
+            Data: 0109202275b4fba4f02f38b5aa1f351153b446d2404d79a96f90c1
+                [Expert Info (Note/Undecoded): Undecoded]
+                    [Undecoded]
+                    [Severity level: Note]
+                    [Group: Undecoded]
+    CRC: 0x7325c0

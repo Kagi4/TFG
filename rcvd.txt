@@ -1,0 +1,59 @@
+Frame 1141: 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface COM3-4.2, id 0
+nRF Sniffer for Bluetooth LE
+    Board: 3
+    Header Version: 3, Packet counter: 1146
+        Length of payload: 37
+        Protocol version: 3
+        Packet counter: 1146
+        Packet ID: 6
+    Length of packet: 10
+    Flags: 0x01
+        .... ...1 = CRC: Ok
+        .... ..0. = Direction: Slave -> Master
+        .... .0.. = Encrypted: No
+        .... 0... = MIC (not relevant): 0
+        .000 .... = PHY: LE 1M (0)
+        0... .... = Reserved: 0
+    Channel Index: 3
+    RSSI: -22 dBm
+    Event counter: 4
+    Timestamp: 13266444µs
+    [Packet time (start to end): 224µs]
+    [Delta time (end to start): 149µs]
+    [Delta time (start to start): 229µs]
+Bluetooth Low Energy Link Layer
+    Access Address: 0x43c7cdc7
+    [Master Address: Espressi_79:7b:6e (78:21:84:79:7b:6e)]
+    [Slave Address: Espressi_79:7d:5e (78:21:84:79:7d:5e)]
+    Data Header
+        .... ..10 = LLID: Start of an L2CAP message or a complete L2CAP message with no fragmentation (0x2)
+        .... .1.. = Next Expected Sequence Number: 1 [ACK]
+        .... 0... = Sequence Number: 0 [OK]
+        ...0 .... = More Data: False
+        ..0. .... = CTE Info: Not Present
+        00.. .... = RFU: 0
+        Length: 18
+    [L2CAP Index: 1]
+    [Connection Parameters in: 1127]
+    CRC: 0xc40d46
+Bluetooth L2CAP Protocol
+    Length: 14
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Read By Group Type Response (0x11)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 0001 = Method: Read By Group Type Response (0x11)
+    Length: 6
+    Attribute Data, Handle: 0x0001, Group End Handle: 0x0005, UUID: Generic Attribute
+        Handle: 0x0001 (Generic Attribute)
+            [UUID: Generic Attribute (0x1801)]
+        Group End Handle: 0x0005
+        UUID: Generic Attribute (0x1801)
+    Attribute Data, Handle: 0x0014, Group End Handle: 0x001c, UUID: Generic Access
+        Handle: 0x0014 (Generic Access)
+            [UUID: Generic Access (0x1800)]
+        Group End Handle: 0x001c
+        UUID: Generic Access (0x1800)
+    [UUID: Primary Service (0x2800)]
+    [Request in Frame: 1136]

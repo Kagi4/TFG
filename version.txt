@@ -1,0 +1,42 @@
+Frame 1129: 32 bytes on wire (256 bits), 32 bytes captured (256 bits) on interface COM3-4.2, id 0
+nRF Sniffer for Bluetooth LE
+    Board: 3
+    Header Version: 3, Packet counter: 1134
+        Length of payload: 25
+        Protocol version: 3
+        Packet counter: 1134
+        Packet ID: 6
+    Length of packet: 10
+    Flags: 0x01
+        .... ...1 = CRC: Ok
+        .... ..0. = Direction: Slave -> Master
+        .... .0.. = Encrypted: No
+        .... 0... = MIC (not relevant): 0
+        .000 .... = PHY: LE 1M (0)
+        0... .... = Reserved: 0
+    Channel Index: 8
+    RSSI: -21 dBm
+    Event counter: 0
+    Timestamp: 13205977µs
+    [Packet time (start to end): 128µs]
+    [Delta time (end to start): 148µs]
+    [Delta time (start to start): 300µs]
+Bluetooth Low Energy Link Layer
+    Access Address: 0x43c7cdc7
+    [Master Address: Espressi_79:7b:6e (78:21:84:79:7b:6e)]
+    [Slave Address: Espressi_79:7d:5e (78:21:84:79:7d:5e)]
+    Data Header
+        .... ..11 = LLID: Control PDU (0x3)
+        .... .1.. = Next Expected Sequence Number: 1 [ACK]
+        .... 0... = Sequence Number: 0 [OK]
+        ...0 .... = More Data: False
+        ..0. .... = CTE Info: Not Present
+        00.. .... = RFU: 0
+        Length: 6
+    Control Opcode: LL_VERSION_IND (0x0c)
+    Version Number: 4.2 (0x08)
+    Company Id: RivieraWaves S.A.S (0x0060)
+    Subversion Number: 0x030e
+    [Response in Frame: 1130]
+    [Connection Parameters in: 1127]
+    CRC: 0xff72df

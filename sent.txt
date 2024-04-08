@@ -1,0 +1,50 @@
+Frame 1212: 43 bytes on wire (344 bits), 43 bytes captured (344 bits) on interface COM3-4.2, id 0
+nRF Sniffer for Bluetooth LE
+    Board: 3
+    Header Version: 3, Packet counter: 1217
+        Length of payload: 36
+        Protocol version: 3
+        Packet counter: 1217
+        Packet ID: 6
+    Length of packet: 10
+    Flags: 0x03
+        .... ...1 = CRC: Ok
+        .... ..1. = Direction: Master -> Slave
+        .... .0.. = Encrypted: No
+        .... 0... = MIC (not relevant): 0
+        .000 .... = PHY: LE 1M (0)
+        0... .... = Reserved: 0
+    Channel Index: 24
+    RSSI: -40 dBm
+    Event counter: 39
+    Timestamp: 13790787µs
+    [Packet time (start to end): 216µs]
+    [Delta time (end to start): 14656µs]
+    [Delta time (start to start): 14776µs]
+Bluetooth Low Energy Link Layer
+    Access Address: 0x43c7cdc7
+    [Master Address: Espressi_79:7b:6e (78:21:84:79:7b:6e)]
+    [Slave Address: Espressi_79:7d:5e (78:21:84:79:7d:5e)]
+    Data Header
+        .... ..10 = LLID: Start of an L2CAP message or a complete L2CAP message with no fragmentation (0x2)
+        .... .0.. = Next Expected Sequence Number: 0 [ACK]
+        .... 0... = Sequence Number: 0 [OK]
+        ...0 .... = More Data: False
+        ..0. .... = CTE Info: Not Present
+        00.. .... = RFU: 0
+        Length: 17
+    [L2CAP Index: 36]
+    [Connection Parameters in: 1127]
+    CRC: 0x7aeb85
+Bluetooth L2CAP Protocol
+    Length: 13
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Write Request (0x12)
+        0... .... = Authentication Signature: False
+        .0.. .... = Command: False
+        ..01 0010 = Method: Write Request (0x12)
+    Handle: 0x002a (Unknown: Unknown)
+        [Service UUID: 620a05f8228740b898a850b53afcf37b]
+        [UUID: 24d7d47a688348bebb2d74ddbb479177]
+    Value: 3120736567756e646f73

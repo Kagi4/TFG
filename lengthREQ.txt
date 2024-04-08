@@ -1,0 +1,43 @@
+Frame 1139: 35 bytes on wire (280 bits), 35 bytes captured (280 bits) on interface COM3-4.2, id 0
+nRF Sniffer for Bluetooth LE
+    Board: 3
+    Header Version: 3, Packet counter: 1144
+        Length of payload: 28
+        Protocol version: 3
+        Packet counter: 1144
+        Packet ID: 6
+    Length of packet: 10
+    Flags: 0x01
+        .... ...1 = CRC: Ok
+        .... ..0. = Direction: Slave -> Master
+        .... .0.. = Encrypted: No
+        .... 0... = MIC (not relevant): 0
+        .000 .... = PHY: LE 1M (0)
+        0... .... = Reserved: 0
+    Channel Index: 3
+    RSSI: -22 dBm
+    Event counter: 4
+    Timestamp: 13265915µs
+    [Packet time (start to end): 152µs]
+    [Delta time (end to start): 149µs]
+    [Delta time (start to start): 229µs]
+Bluetooth Low Energy Link Layer
+    Access Address: 0x43c7cdc7
+    [Master Address: Espressi_79:7b:6e (78:21:84:79:7b:6e)]
+    [Slave Address: Espressi_79:7d:5e (78:21:84:79:7d:5e)]
+    Data Header
+        .... ..11 = LLID: Control PDU (0x3)
+        .... .0.. = Next Expected Sequence Number: 0 [ACK]
+        .... 1... = Sequence Number: 1 [OK]
+        ...1 .... = More Data: True
+        ..0. .... = CTE Info: Not Present
+        00.. .... = RFU: 0
+        Length: 9
+    Control Opcode: LL_LENGTH_REQ (0x14)
+    Max RX octets: 251
+    Max RX time: 2120 microseconds
+    Max TX octets: 251
+    Max TX time: 2120 microseconds
+    [Response in Frame: 1142]
+    [Connection Parameters in: 1127]
+    CRC: 0xdf0012
