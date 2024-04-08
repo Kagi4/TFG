@@ -1,0 +1,35 @@
+Frame 825: 38 bytes on wire (304 bits), 38 bytes captured (304 bits) on interface COM3-4.2, id 0
+nRF Sniffer for Bluetooth LE
+    Board: 3
+    Header Version: 3, Packet counter: 830
+        Length of payload: 31
+        Protocol version: 3
+        Packet counter: 830
+        Packet ID: 2
+    Length of packet: 10
+    Flags: 0x01
+        .... ...1 = CRC: Ok
+        .... ..0. = Reserved: 0
+        .... .0.. = Reserved: 0
+        .... 0... = Address Resolved: No
+        .000 .... = PHY: LE 1M (0)
+        0... .... = Reserved: 0
+    Channel Index: 39
+    RSSI: -71 dBm
+    Event counter: 0
+    Timestamp: 10721333µs
+    [Packet time (start to end): 176µs]
+    [Delta time (end to start): 150µs]
+    [Delta time (start to start): 494µs]
+Bluetooth Low Energy Link Layer
+    Access Address: 0x8e89bed6
+    Packet Header: 0x0c43 (PDU Type: SCAN_REQ, TxAdd: Random, RxAdd: Public)
+        .... 0011 = PDU Type: 0x3 SCAN_REQ
+        ...0 .... = Reserved: 0
+        ..0. .... = Reserved: 0
+        .1.. .... = Tx Address: Random
+        0... .... = Rx Address: Public
+        Length: 12
+    Scanning Address: 56:01:e3:d5:4e:40 (56:01:e3:d5:4e:40)
+    Advertising Address: Espressi_79:7d:5e (78:21:84:79:7d:5e)
+    CRC: 0x173634

@@ -1,0 +1,53 @@
+Frame 16: 59 bytes on wire (472 bits), 59 bytes captured (472 bits) on interface COM3-4.2, id 0
+nRF Sniffer for Bluetooth LE
+    Board: 3
+    Header Version: 3, Packet counter: 21
+        Length of payload: 52
+        Protocol version: 3
+        Packet counter: 21
+        Packet ID: 2
+    Length of packet: 10
+    Flags: 0x01
+        .... ...1 = CRC: Ok
+        .... ..0. = Reserved: 0
+        .... .0.. = Reserved: 0
+        .... 0... = Address Resolved: No
+        .000 .... = PHY: LE 1M (0)
+        0... .... = Reserved: 0
+    Channel Index: 39
+    RSSI: -18 dBm
+    Event counter: 0
+    Timestamp: 3795116µs
+    [Packet time (start to end): 344µs]
+    [Delta time (end to start): 1156µs]
+    [Delta time (start to start): 1500µs]
+Bluetooth Low Energy Link Layer
+    Access Address: 0x8e89bed6
+    Packet Header: 0x2100 (PDU Type: ADV_IND, ChSel: #1, TxAdd: Public)
+        .... 0000 = PDU Type: 0x0 ADV_IND
+        ...0 .... = Reserved: 0
+        ..0. .... = Channel Selection Algorithm: #1
+        .0.. .... = Tx Address: Public
+        0... .... = Reserved: 0
+        Length: 33
+    Advertising Address: Espressi_79:7d:5e (78:21:84:79:7d:5e)
+    Advertising Data
+        Flags
+            Length: 2
+            Type: Flags (0x01)
+            000. .... = Reserved: 0x0
+            ...0 .... = Simultaneous LE and BR/EDR to Same Device Capable (Host): false (0x0)
+            .... 0... = Simultaneous LE and BR/EDR to Same Device Capable (Controller): false (0x0)
+            .... .1.. = BR/EDR Not Supported: true (0x1)
+            .... ..1. = LE General Discoverable Mode: true (0x1)
+            .... ...0 = LE Limited Discoverable Mode: false (0x0)
+        128-bit Service Class UUIDs
+            Length: 17
+            Type: 128-bit Service Class UUIDs (0x07)
+            Custom UUID: 620a05f8-2287-40b8-98a8-50b53afcf37b (Unknown)
+        Peripheral Connection Interval Range: 22,5 - 80 msec
+            Length: 5
+            Type: Peripheral Connection Interval Range (0x12)
+        Connection Interval Min: 18 (22,5 msec)
+        Connection Interval Max: 64 (80 msec)
+    CRC: 0x938281

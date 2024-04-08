@@ -1,0 +1,49 @@
+Frame 22: 53 bytes on wire (424 bits), 53 bytes captured (424 bits) on interface COM3-4.2, id 0
+nRF Sniffer for Bluetooth LE
+    Board: 3
+    Header Version: 3, Packet counter: 27
+        Length of payload: 46
+        Protocol version: 3
+        Packet counter: 27
+        Packet ID: 2
+    Length of packet: 10
+    Flags: 0x01
+        .... ...1 = CRC: Ok
+        .... ..0. = Reserved: 0
+        .... .0.. = Reserved: 0
+        .... 0... = Address Resolved: No
+        .000 .... = PHY: LE 1M (0)
+        0... .... = Reserved: 0
+    Channel Index: 38
+    RSSI: -18 dBm
+    Event counter: 0
+    Timestamp: 3836939µs
+    [Packet time (start to end): 296µs]
+    [Delta time (end to start): 150µs]
+    [Delta time (start to start): 326µs]
+Bluetooth Low Energy Link Layer
+    Access Address: 0x8e89bed6
+    Packet Header: 0x1b04 (PDU Type: SCAN_RSP, TxAdd: Public)
+        .... 0100 = PDU Type: 0x4 SCAN_RSP
+        ...0 .... = Reserved: 0
+        ..0. .... = Reserved: 0
+        .0.. .... = Tx Address: Public
+        0... .... = Reserved: 0
+        Length: 27
+    Advertising Address: Espressi_79:7d:5e (78:21:84:79:7d:5e)
+    Scan Response Data: 0b09626c655f536572766572020a09051212004000
+        Advertising Data
+            Device Name: ble_Server
+                Length: 11
+                Type: Device Name (0x09)
+                Device Name: ble_Server
+            Tx Power Level
+                Length: 2
+                Type: Tx Power Level (0x0a)
+                Power Level (dBm): 9
+            Peripheral Connection Interval Range: 22,5 - 80 msec
+                Length: 5
+                Type: Peripheral Connection Interval Range (0x12)
+            Connection Interval Min: 18 (22,5 msec)
+            Connection Interval Max: 64 (80 msec)
+    CRC: 0x3a4790

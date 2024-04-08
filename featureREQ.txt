@@ -1,0 +1,86 @@
+Frame 1128: 35 bytes on wire (280 bits), 35 bytes captured (280 bits) on interface COM3-4.2, id 0
+nRF Sniffer for Bluetooth LE
+    Board: 3
+    Header Version: 3, Packet counter: 1133
+        Length of payload: 28
+        Protocol version: 3
+        Packet counter: 1133
+        Packet ID: 6
+    Length of packet: 10
+    Flags: 0x03
+        .... ...1 = CRC: Ok
+        .... ..1. = Direction: Master -> Slave
+        .... .0.. = Encrypted: No
+        .... 0... = MIC (not relevant): 0
+        .000 .... = PHY: LE 1M (0)
+        0... .... = Reserved: 0
+    Channel Index: 8
+    RSSI: -40 dBm
+    Event counter: 0
+    Timestamp: 13205677µs
+    [Packet time (start to end): 152µs]
+    [Delta time (end to start): 7777µs]
+    [Delta time (start to start): 8129µs]
+Bluetooth Low Energy Link Layer
+    Access Address: 0x43c7cdc7
+    [Master Address: Espressi_79:7b:6e (78:21:84:79:7b:6e)]
+    [Slave Address: Espressi_79:7d:5e (78:21:84:79:7d:5e)]
+    Data Header
+        .... ..11 = LLID: Control PDU (0x3)
+        .... .0.. = Next Expected Sequence Number: 0 [ACK]
+        .... 0... = Sequence Number: 0 [OK]
+        ...0 .... = More Data: False
+        ..0. .... = CTE Info: Not Present
+        00.. .... = RFU: 0
+        Length: 9
+    Control Opcode: LL_FEATURE_REQ (0x08)
+    Feature Set: 0x00000000000000ff
+        .... ...1 = LE Encryption: True
+        .... ..1. = Connection Parameters Request Procedure: True
+        .... .1.. = Extended Reject Indication: True
+        .... 1... = Slave Initiated Features Exchange: True
+        ...1 .... = LE Ping: True
+        ..1. .... = LE Data Packet Length Extension: True
+        .1.. .... = LL Privacy: True
+        1... .... = Extended Scanner Filter Policies: True
+        .... ...0 = LE 2M PHY: False
+        .... ..0. = Stable Modulation Index - Transmitter: False
+        .... .0.. = Stable Modulation Index - Receiver: False
+        .... 0... = LE Coded PHY: False
+        ...0 .... = LE Extended Advertising: False
+        ..0. .... = LE Periodic Advertising: False
+        .0.. .... = Channel Selection Algorithm #2: False
+        0... .... = LE Power Class 1: False
+        .... ...0 = Minimum Number of Used Channels Procedure: False
+        .... ..0. = Connection CTE Request: False
+        .... .0.. = Connection CTE Response: False
+        .... 0... = Connectionless CTE Transmitter: False
+        ...0 .... = Connectionless CTE Receiver: False
+        ..0. .... = Antenna Switching During CTE Transmission (AoD): False
+        .0.. .... = Antenna Switching During CTE Reception (AoA): False
+        0... .... = Receiving Constant Tone Extensions: False
+        .... ...0 = Periodic Advertising Sync Transfer - Sender: False
+        .... ..0. = Periodic Advertising Sync Transfer - Receiver: False
+        .... .0.. = Sleep Clock Accuracy Updates: False
+        .... 0... = Remote Public Key Validation: False
+        ...0 .... = Connected Isochronous Stream - Central: False
+        ..0. .... = Connected Isochronous Stream - Peripheral: False
+        .0.. .... = Isochronous Broadcaster: False
+        0... .... = Synchronized Receiver: False
+        .... ...0 = Connected Isochronous Stream (Host Support): False
+        .... ..0. = LE Power Control Request: False
+        .... .0.. = LE Power Control Request: False
+        .... 0... = LE Path Loss Monitoring: False
+        ...0 .... = Periodic Advertising ADI support: False
+        ..0. .... = Connection Subrating: False
+        .0.. .... = Connection Subrating (Host Support): False
+        0... .... = Channel Classification: False
+        .... ...0 = Advertising Coding Selection: False
+        .... ..0. = Advertising Coding Selection (Host Support): False
+        .... .0.. = Periodic Advertising with Responses - Advertiser: False
+        .... 0... = Periodic Advertising with Responses - Scanner: False
+        0000 .... = Reserved bits: 0
+        Reserved: 0000d0
+    [Response in Frame: 1133]
+    [Connection Parameters in: 1127]
+    CRC: 0x0b4881
